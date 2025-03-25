@@ -1,0 +1,74 @@
+/* Background  */
+body {
+  background: linear-gradient(135deg, #f4f7fc, #ddeeff);
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar  */
+nav.navbar {
+  background-color: #3faffa;
+  border-radius: 0 0 20px 20px;
+}
+
+.navbar img {
+  height: 50px;
+  width: 100px;
+}
+
+.navbar strong {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Card  */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Textarea and preview box styling */
+#markdown-input,
+#markdown-preview {
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#markdown-input {
+  width: 100%;
+  height: 300px;
+}
+
+#markdown-preview {
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+  white-space: pre-wrap;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
