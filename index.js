@@ -3,7 +3,7 @@ function updatePreview() {
     const markdownInput = document.getElementById("markdown-input").value;
     const previewArea = document.getElementById("markdown-preview");
     
-    console.log(markdownInput);
+    // console.log(markdownInput);
     try {
         // convert Markdown input to HTML
         previewArea.innerHTML = marked(markdownInput);
